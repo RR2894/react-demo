@@ -1,6 +1,9 @@
 import './App.css'
 import Box from './Box'
 import { useState } from 'react'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
 const [counter, setCounter] = useState(0)
