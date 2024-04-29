@@ -1,4 +1,4 @@
-import './App'
+import '../App'
 import { useState } from 'react';
 
 const Box = (props) => {
