@@ -4,6 +4,7 @@ import Home from './Components/Home.jsx';
 import About from './Components/About.jsx';
 import Root from './Root.jsx';
 import Persons from './Pages/Persons.jsx';
+import ErrorPage from './Pages/ErrorPage.jsx';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     { 
       path:'/', 
       element: <Root />,
+      errorElement: <ErrorPage/>,
       children: [
         { path: '/', element: <Home /> },
         { path:'/about', element: <About/>},
