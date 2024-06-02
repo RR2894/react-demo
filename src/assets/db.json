@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "First MARGIT",
+        "author": "John Doe",
+        "content": "This is the first post content.",
+        "published": true,
+        "date": "2024-05-10"
+      },
+      {
+        "id": 2,
+        "title": "Second Post",
+        "author": "Jane Smith",
+        "content": "This is the second post content.",
+        "published": false,
+        "date": "2024-05-11"
+      },
+      {
+        "id": 3,
+        "title": "Third Post",
+        "author": "Alice Johnson",
+        "content": "This is the third post content.",
+        "published": true,
+        "date": "2024-05-12"
+      }
+    ]
+  }
+  
